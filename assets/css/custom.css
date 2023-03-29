@@ -1,0 +1,98 @@
+.admin-logo-block{
+	background: #0e71c7;
+}
+.admin-logo{
+	filter: brightness(0) invert(1);
+}
+.logo-block{
+	width: 88%;
+}
+.logo-image{
+	width: 26%;
+	margin: 0 auto;
+	display: block;
+}
+
+table.dataTable tbody td.focus, table.dataTable tbody th.focus {
+	outline: none !important;
+	outline-offset: -1px;
+	background-color: transparent;
+}
+
+.select2-container .select2-selection--single {
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+td span.badge.badge-info-lighten.p-1{
+	cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #444;
+	line-height: 33px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #888 transparent transparent transparent;
+	border-style: solid;
+	border-width: 5px 4px 0 4px;
+	height: 0;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: 0px;
+	position: absolute;
+	top: 50%;
+	width: 0;
+}
+
+.btn-progress {
+	position: relative;
+	background-image: url("../images/spinner-white.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	color: transparent !important;
+	pointer-events: none; 
+}
+
+td a.btn-icon {
+	color: white;
+	padding: 1px;
+	width: 26px;
+}
+
+td a.btn-icon:hover{
+	color: black;
+}
+
+form a i.fa-solid.fa-plus {
+	margin-top: 6px;
+}
+
+form a i.fa-solid.fa-minus {
+	margin-top: 6px;
+}
+.table>:not(caption)>*>* {
+	padding: 0.7rem 0.95rem;
+}
+tbody, td, tfoot, th, thead, tr {
+	color: #000;
+	font-size: 12px;
+}
+.btn-group-sm>.btn, .btn-sm {
+	font-size: .65rem;
+}
+td a.btn-icon {
+	width: 22px;
+}
+
+td i.fa-solid.fa-circle.blink {
+    margin-left: 6px;
+    font-size: 8px;
+    position: absolute;
+}
